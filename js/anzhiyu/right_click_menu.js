@@ -449,7 +449,7 @@ function addRightMenuClickEvent() {
   document.getElementById("menu-copylink").addEventListener("click", rm.copyLink);
 
   document.getElementById("menu-downloadimg").addEventListener("click", function () {
-    anzhiyu.downloadImage(domImgSrc, "anzhiyu");
+    anzhiyu.downloadImage(domImgSrc, "luochen");
   });
 
   document.getElementById("menu-newwindowimg").addEventListener("click", function () {
