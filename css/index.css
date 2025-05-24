@@ -2858,7 +2858,7 @@ input::placeholder {
   -ms-transform: rotate(-1deg);
   transform: rotate(-1deg);
   -webkit-overflow-scrolling: touch;
-  background: url("https://pub-7a4b2015bc74472ab2784c46ab501ff4.r2.dev/demo5.png") no-repeat center center/cover;
+  background: url("/img/demo5.png") no-repeat center center/cover;
   background-attachment: local;
   background-position: center;
   background-size: cover;
