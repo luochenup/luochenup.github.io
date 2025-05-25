@@ -4033,11 +4033,33 @@ body[data-type='about'] #web_bg {
 .aboutsiteTips h2 {
   margin-right: auto;
   font-size: 36px;
-  font-family: Helvetica;
+  font-family: "Garamond", "Times New Roman", serif; /* 更优雅的衬线字体 */
   line-height: 1.06;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.03em; /* 正间距更适合华丽风格 */
   color: var(--font-color);
   margin-top: 0;
+/* 新增装饰属性 */
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(255,255,255,0.3);
+/* 微光效果 */
+  position: relative;
+  display: inline-block;
+}
+.aboutsiteTips h2::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: -webkit-linear-gradient(0deg, transparent, #ffd700, transparent);
+  background: -moz-linear-gradient(0deg, transparent, #ffd700, transparent);
+  background: -o-linear-gradient(0deg, transparent, #ffd700, transparent);
+  background: -ms-linear-gradient(0deg, transparent, #ffd700, transparent);
+  background: linear-gradient(90deg, transparent, #ffd700, transparent);
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
 }
 .aboutsiteTips .mask {
   height: 36px;
