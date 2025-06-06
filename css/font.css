@@ -1,6 +1,6 @@
 /* 字体css */
 @font-face{
-  font-family: 'HuangkaihuaLawyerFont'; 
+  font-family: 'Yozai-Light'; 
   font-display: swap;
-  src: url('/ttf/huangkaihuaLawyerfont-2.ttf') format("truetype");
+  src: url('/ttf/Yozai-Light.ttf') format("truetype");
 }
