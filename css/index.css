@@ -20366,7 +20366,7 @@ a
   left: 17px;
 }
 @media screen and (max-width: 768px) {
-  .OwO .OwO-body {
+  .OwO .-body {
     min-width: 260px;
   }
   .tk-comments .tk-row-actions-start {
