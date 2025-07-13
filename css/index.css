@@ -9931,7 +9931,7 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content >.card-widget.card-info {
   background: var(--anzhiyu-card-bg);
-  background-image: url("/img/backgroud.jpg") !important; /* 添加背景图片 */
+  background-image: url("/img/xxx.jpg") !important; /* 添加背景图片 */
   -webkit-box-shadow: var(--anzhiyu-shadow-black);
   box-shadow: var(--anzhiyu-shadow-black);
   position: relative;
